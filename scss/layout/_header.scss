@@ -1,0 +1,45 @@
+.header {
+  margin-top: 6.4rem;
+  position: relative;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 760px) {
+  .bars__icon {
+    display: block;
+    font-weight: 900;
+  }
+  .header__navbar {
+    display: none;
+  }
+}
+.header__logo__link {
+}
+.header__logo__image {
+}
+.header__navbar {
+}
+.navbar__list {
+}
+.navbar__item {
+  display: inline;
+  padding-right: 4.2rem;
+}
+.navbar__link {
+  font-family: "jost", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: $dark-grey-color;
+}
+.navbar__link:hover {
+  text-decoration: underline;
+}
+
+#active {
+  text-decoration: underline;
+}

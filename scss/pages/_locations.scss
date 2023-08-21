@@ -1,0 +1,45 @@
+.main__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //   width: 255px;
+  a {
+    color: $dark-grey-color;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.6;
+  }
+  h6 {
+    color: $dark-grey-color;
+  }
+}
+.main__titl__is__contact {
+  background-image: url("/images/Group\ location.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  color: $dark-grey-color;
+  justify-content: flex-start;
+}
+.container {
+}
+.main__content__locations {
+  h1 {
+    color: $primary-color;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  p {
+    color: $dark-grey-color;
+    font-family: "jost", sans-serif;
+  }
+}
+.main__title {
+  color: $dark-grey-color;
+  font-family: "jost", sans-serif;
+}

@@ -1,0 +1,78 @@
+.main__contact__container {
+  background-image: url("/images/main-contact.svg");
+  background-repeat: no-repeat;
+  display: flex;
+}
+.main__content {
+}
+.main__one {
+  padding-top: 170px;
+  h6 {
+    opacity: 0.5;
+  }
+  a {
+    margin-left: 240px;
+    padding: 17px 48px;
+  }
+}
+.container {
+}
+.main__contact__title {
+  width: 540px;
+  color: $white-color;
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 160px;
+}
+.main__contact__title__text {
+  padding-top: 32px;
+  width: 445px;
+  color: $white-color;
+  font-family: "Jost" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 161px;
+}
+hr {
+  width: 380px;
+  opacity: 0.5;
+}
+.main__contact-end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  align-items: center;
+  text-align: center;
+}
+.container {
+}
+.main__image__one {
+}
+.main__contact-image {
+  margin-bottom: 48px;
+}
+.main__contact-title {
+  margin-bottom: 50px;
+  font-family: "jost", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 981px) {
+  .main__contact-end {
+    flex-direction: column;
+  }
+  .main__contact__container {
+    flex-direction: column;
+  }
+}
+.btn {
+}
+.primary__btn {
+}
+.main__image__two {
+}
+.main__imege-three {
+}

@@ -1,0 +1,335 @@
+.main {
+  margin-top: 6.7rem;
+  flex-grow: 1;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary-color;
+  border-radius: 1.5rem;
+  background-image: url("/images/Oval.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.main__content {
+  color: $white-color;
+}
+.main__content p {
+  margin-top: 11px;
+  margin-bottom: 4rem;
+  width: 100%;
+  max-width: 445px;
+  font-family: "jost", sans-serif;
+  line-height: 1.62;
+}
+.hero__title {
+  width: 100%;
+  max-width: 540px;
+  color: $white-color;
+  margin-top: 14.5rem;
+  font-family: "jost", sans-serif;
+}
+.bars__icon {
+  display: none;
+}
+.btn {
+  text-transform: uppercase;
+  font-family: "jost", sans-serif;
+  letter-spacing: 1;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+}
+@media screen and (max-width: 966px) {
+  .hero__container {
+    flex-direction: column;
+  }
+  .main__content {
+    text-align: center;
+    flex-direction: column;
+  }
+  .hero__image {
+    object-fit: cover;
+  }
+}
+
+.hero__image {
+  margin-left: 98px;
+}
+.main__start {
+  margin-top: 16rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+.main__start-title {
+  color: $white-color;
+  font-size: 4rem;
+}
+.main__start_link {
+  color: $white-color;
+  font-family: "jost", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main__image__left {
+  width: 100%;
+  max-width: 541px;
+  height: 640px;
+  display: flex;
+  background-image: url("/images/main-web-design-image.png");
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main__left-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__image__right {
+}
+.main__image-right {
+  text-align: center;
+}
+.main__images__two {
+  // width: 100%;
+  width: 541px;
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/images/main-app-design.png");
+}
+.main__end-title {
+  color: $white-color;
+  font-size: 4rem;
+}
+.main__end-link {
+  color: $white-color;
+  font-family: "jost", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main__link__image {
+}
+.main__end-right-two {
+  margin-top: 2.4rem;
+  width: 100%;
+  max-width: 541px;
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/main-graphic-design-image.png");
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main__title-two {
+  color: $white-color;
+  font-size: 4rem;
+}
+@media screen and (max-width: 786px) {
+  .main__start {
+    flex-direction: column;
+  }
+  .main__image__left {
+    width: 100%;
+    max-width: 689px;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1.5rem;
+    margin-bottom: 2.4rem;
+  }
+  .main__images__two {
+    width: 100%;
+    max-width: 689px;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1.5rem;
+  }
+  .main__end-right-two {
+    width: 100%;
+    max-width: 689px;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1.5rem;
+  }
+}
+.main__link-two {
+  color: $white-color;
+  font-family: "jost", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main__end {
+  display: flex;
+  margin-top: 16rem;
+  justify-content: space-between;
+}
+@media screen and (max-width: 775px) {
+  .main__end {
+    flex-direction: column;
+    max-width: 775px;
+  }
+}
+.container {
+}
+.passionate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passionate h3 {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5;
+}
+.passionate p {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.62;
+  text-align: center;
+  width: 350px;
+}
+.passionate h3 p {
+  width: 100%;
+  max-width: 350px;
+  height: 162px;
+}
+.resourceful h3 {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5;
+}
+.resourceful p {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.62;
+  text-align: center;
+  width: 350px;
+}
+.resourceful h3 p {
+  width: 100%;
+  max-width: 350px;
+  height: 162px;
+}
+.frienldy h3 p {
+  width: 100%;
+  max-width: 350px;
+  height: 162px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frienldy h3 {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5;
+}
+.frienldy p {
+  color: $dark-grey-color;
+  font-family: "jost";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.62;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+}
+.main__end__image {
+  object-fit: cover;
+}
+.frienldy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resourceful {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__footer-content {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -100px;
+  background-image: url("/images/main__footer.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1111px;
+  margin-top: 16rem;
+  height: 292px;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__footer__title {
+  width: 100%;
+  max-width: 268px;
+  font-family: "jost";
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: $white-color;
+  padding-top: 7.2rem;
+}
+.main__footer p {
+  width: 100%;
+  max-width: 459px;
+  color: $white-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media screen and (max-width: 797px) {
+  .main__footer-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  h1,
+  p {
+    align-items: center;
+    text-align: center;
+  }
+}
