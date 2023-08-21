@@ -15,6 +15,9 @@
   .header__navbar {
     display: none;
   }
+  .header__container {
+    flex-direction: column;
+  }
 }
 .header__logo__link {
 }

@@ -537,14 +537,11 @@ h3 {
     flex-direction: column;
   }
   .hero__image {
-    -o-object-fit: cover;
-       object-fit: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
-.hero__image {
-  margin-left: 98px;
-}
-
 .main__start {
   margin-top: 16rem;
   background-repeat: no-repeat;
@@ -859,6 +856,9 @@ h3 {
   }
   .header__navbar {
     display: none;
+  }
+  .header__container {
+    flex-direction: column;
   }
 }
 .navbar__item {

@@ -51,12 +51,15 @@
     flex-direction: column;
   }
   .hero__image {
-    object-fit: cover;
+    // object-fit: cover
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
 .hero__image {
-  margin-left: 98px;
+  // margin-left: 98px;
 }
 .main__start {
   margin-top: 16rem;
